@@ -1,4 +1,4 @@
-package com.leo.commons.test;
+package com.leo.commons.mian;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Date: 2020/9/11 11:26
  * @Description
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.leo.commons"})
 public class CommonApplication {
 
     public static void main(String[] args) {
