@@ -31,5 +31,5 @@ aliyun.mq.consumer.enabled=true
 
 ###  4. 运行效果
 - 测试代码见：com.leo.commons.mian.demo
-![img.png](screenshot/img.png)
+![img.png](images/img.png)
 
