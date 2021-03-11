@@ -5,6 +5,7 @@
 | fastjson  | 1.2.60 |   |
 | ons-client  | 1.8.0.Final | 阿里云RocketMQ |
 
+
 ###  2. 需求
 - 基于注解，集成阿里云 [RocketMQ](https://help.aliyun.com/product/29530.html?spm=a2c4g.11174283.6.540.6d6e57937NvtK2 ) 进行组件封装具备消息发送与消费能力
 - 目前主要集成了 "普通消息"，"顺序消息"
