@@ -1,4 +1,4 @@
-###  1. 组件
+###  1. 组件列表
 |  组件   | 版本  | 说明  |
 |  ----  | ----  | ----  |
 | spring-boot  | 2.2.5.RELEASE |   |
@@ -6,12 +6,12 @@
 | ons-client  | 1.8.0.Final | 阿里云RocketMQ |
 
 
-###  2. 需求
+###  2. 需求解决
 - 基于注解，集成阿里云 [RocketMQ](https://help.aliyun.com/product/29530.html?spm=a2c4g.11174283.6.540.6d6e57937NvtK2 ) 进行组件封装具备消息发送与消费能力
 - 目前主要集成了 "普通消息"，"顺序消息"。 "事务消息"待集成
 
 
-###  3. 配置
+###  3. 配置示例
 ```
 ## 阿里云mq配置
 aliyun.mq.address=http://onsaddr.mq-internet-access.mq-internet.aliyuncs.com:80
@@ -31,7 +31,7 @@ aliyun.mq.consumer.enabled=true
 ```
 
 
-###  4. 运行
+###  4. 运行说明
 ```
 测试代码见：com.leo.commons.mian.demo
 
