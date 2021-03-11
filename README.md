@@ -30,6 +30,15 @@ aliyun.mq.producer.orderEnabled=false
 aliyun.mq.consumer.enabled=true
 ```
 
+```
+如需运行demo，请先开通阿里云[消息队列RocketMQ]服务。
+新建Topic：detail-test
+新建Group：GID-demo-dev
+修改application.properties对应自己账号的信息
+```
+
+
+
 
 ###  4. 运行效果
 - 测试代码见：com.leo.commons.mian.demo
